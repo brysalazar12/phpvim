@@ -2,7 +2,6 @@
 ![Screenshot](./screenshot.png "Screenshot of this .vimrc in action")
 
 This Vim configuration is meant to make Vim feel more like an IDE than a simple console-based text editor.
-I use it mostly under with MacVIM and Linux GVim though I occasionally run it directly in a terminal.
 
 ## Installation
 
@@ -16,20 +15,27 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 ## Features
 
+* Code folding
 * Edit many files at the same time
 * File Browser on left side of screen
 * Functions, Variables, Classes on right
 * Move between files in center screen
-* View status of the current GIT repo, if applicable
-* Additional features when running under MacVIM
-* Quickly navigate to files using a fuzzy finder
-* Code folding
 * PHP Documenting
+* String search in folder
 
 ### Code Folding
-* Use z o to expand current line
-* Use z c to fold the code
-* Use z i to toggle expand all or fold all
+
+* Use in normal mode z o to expand current line
+* Use in normal mode z c to fold the code
+* Use in normal mode z i to toggle expand all or fold all
+
+### PHP Documenting
+
+* Use in normal mode F2 on current method, class or property to add php documentation
+
+### String search in folder
+* Use in normal mode point your cursor on the word you want to search then press F3 this will search in all .php file
+* Use in visual mode highlight the string you want to search then press F3 this will search in all .php file
 
 ### Switching between files (Buffers)
 
