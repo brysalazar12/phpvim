@@ -10,7 +10,7 @@ Run these commands to get this Vim configuration working on your OS X or Linux m
 
 ```bash
 cd ~
-git clone git://github.com/tlhunter/vimrc.git .vim
+git clone https://github.com/brysalazar12/phpvim.git .vim
 ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
