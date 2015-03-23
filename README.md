@@ -23,13 +23,20 @@ ln -s ~/.vim/vimrc ~/.vimrc
 * View status of the current GIT repo, if applicable
 * Additional features when running under MacVIM
 * Quickly navigate to files using a fuzzy finder
+* Code folding
+* PHP Documenting
+
+### Code Folding
+* Use z o to expand current line
+* Use z c to fold the code
+* Use z i to toggle expand all or fold all
 
 ### Switching between files (Buffers)
 
 * Use _,q_ to close the current file (a different file will appear in its place)
 * Use _Ctrl h Ctrl l_ to move between open files
- * _Ctrl Left Ctrl Right_ also works for switching between files
- * While in MacVIM, you can swipe left and right to switch between open files
+* _Ctrl Left Ctrl Right_ also works for switching between files
+* While in MacVIM, you can swipe left and right to switch between open files
 * Use _Cmd Shift N_ (or _Alt n_ in Linux GVim) to open a new empty buffer
 
 ### Viewports (Windows/Splits)
