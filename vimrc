@@ -173,3 +173,6 @@ vnoremap <F3> y :noautocmd vimgrep /<C-R>"/gj **/*.php <CR>
 let cwd = getcwd()
 let todovar = cwd . "/todo.txt"
 nnoremap <F4> :execute 'edit ' . todovar <CR>
+
+let mytag = cwd . "/tags"
+set tags=mytag
